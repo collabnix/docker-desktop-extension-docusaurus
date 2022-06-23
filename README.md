@@ -60,7 +60,11 @@ By default, a browser window will open at http://localhost:3000.
 If your extension has a UI, you can see it directly inside Docker Desktop whilst you develop it directly. For this you need to first install the extension. If you then run a development server locally, with yarn start for example, enter the following command:
 
 ```
-docker extension dev ui-source ajeetraina/docusaurus http://localhost:3000
+git clone https://github.com/docker/extensions-sdk
+cd extension-sdk/samples/react
+make build-extension
+docker extension install docker/react-extension:latest
+docker extension dev ui-source docker/react-extension:latest http://localhost:3000
 ```
 
 
