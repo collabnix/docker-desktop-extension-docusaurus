@@ -64,8 +64,24 @@ git clone https://github.com/docker/extensions-sdk
 cd extension-sdk/samples/react
 make build-extension
 docker extension install docker/react-extension:latest
-docker extension dev ui-source docker/react-extension:latest http://localhost:3000
 ```
+
+
+``
+docker extension dev ui-source docker/react-extension:latest http://localhost:3000
+docker extension install docker/react-extension:latest
+Extensions can install binaries, invoke commands and access files on your machine. 
+Are you sure you want to continue? [y/N] y
+Installing new extension "docker/react-extension:latest"
+Installing Desktop extension UI for tab "UI Extension"...
+Extension UI tab "UI Extension" added.
+Extension "React Docker Extension" installed successfully
+ajeetraina@Ajeets-MacBook-Pro react % docker extension dev ui-source docker/react-extension:latest http://localhost:3000
+UI source for the extension "docker/react-extension:latest" changed to "http://localhost:3000"%  
+```
+
+<img width="1391" alt="image" src="https://user-images.githubusercontent.com/34368930/175223803-e34c870f-f682-41f0-ae41-2656e8e2781f.png">
+
 
 
 
