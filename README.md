@@ -79,7 +79,8 @@ Extension "React Docker Extension" installed successfully
 
 ## Running the Extension UI
 
-ajeetraina@Ajeets-MacBook-Pro react % docker extension dev ui-source docker/react-extension:latest http://localhost:3000
+```
+docker extension dev ui-source docker/react-extension:latest http://localhost:3000
 UI source for the extension "docker/react-extension:latest" changed to "http://localhost:3000"%  
 ```
 
