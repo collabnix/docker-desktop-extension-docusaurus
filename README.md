@@ -67,7 +67,7 @@ docker extension install docker/react-extension:latest
 ```
 
 
-``
+```
 docker extension dev ui-source docker/react-extension:latest http://localhost:3000
 docker extension install docker/react-extension:latest
 Extensions can install binaries, invoke commands and access files on your machine. 
