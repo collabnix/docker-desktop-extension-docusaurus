@@ -38,13 +38,13 @@ Commands:
 Run 'docker extension COMMAND --help' for more information on a command.
 ```
 
-- Listing the Docker Extensions
+## Listing the Docker Extensions
 
 ```
 docker extension ls
 ```
 
-- Install and Run Docusaurus
+## Install and Run Docusaurus
 
 ```
 npx create-docusaurus@latest mywebsite classic
@@ -55,7 +55,7 @@ npm run start
 By default, a browser window will open at http://localhost:3000.
 
 
-- Develop the Extension UI
+## Develop the Extension UI
 
 If your extension has a UI, you can see it directly inside Docker Desktop whilst you develop it directly. For this you need to first install the extension. If you then run a development server locally, with yarn start for example, enter the following command:
 
